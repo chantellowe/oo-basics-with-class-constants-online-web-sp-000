@@ -3,6 +3,10 @@ class Book
   attr_reader :title
   
   GENRES = []
+  
+  GENRES << genres.each do |genre|
+    genre
+  end
 
   def initialize(title)
     @title = title
