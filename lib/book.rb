@@ -10,10 +10,7 @@ class Book
   
   def genre=(genre)
     @genre = genre
-    
-    GENRES << genres.each do |genre|
-      genre
-    end
+    GENRES << genres
   end
   
   def genre
